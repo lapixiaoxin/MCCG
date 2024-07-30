@@ -1,0 +1,40 @@
+# cuda
+cuda: True
+gpu: 1
+
+# dataset
+dataset: "aminer19"
+mode: "test"    # train, valid, test
+save_path: "dataset/data-aminer19"
+log_dir: ".expert_record/aminer19_test_1"
+predict_result: "aminer19_result_test_1.txt"
+ground_truth_file: "sna_test_ground_truth.json"
+
+# dimension of networks
+layer_shape: [ 100, 256, 256 ]
+dim_proj_multiview: 128
+dim_proj_cluster: 128
+
+# threshold of loading graph and clustering
+th_a: [ 1 ]
+th_o: [ 0.5 ]
+th_v: [ 2 ]
+db_eps: [ 0.1 ]
+db_min: [ 4 ]
+
+# dropout rate of graph augmentation
+drop_scheme: [ "degree" ]   # degree, evc, pr
+drop_feature_rate_view1: [ 0.4 ]
+drop_feature_rate_view2: [ 0.2 ]
+drop_edge_rate_view1: [ 0.4 ]
+drop_edge_rate_view2: [ 0.5 ]
+
+# training parameter
+seed: 1
+lr: 0.0001
+epochs: 50
+l2_coef: [ 0.2 ]
+w_cluster: [ 0.6]
+t_multiview: [ 0.3 ]
+t_cluster: [ 0.3 ]
+
