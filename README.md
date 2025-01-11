@@ -1,7 +1,7 @@
 # MCCG
 ## Overview
 ***
-![img.png](img_1.png)
+![image](https://github.com/user-attachments/assets/ddab81cc-c5fb-46c0-8616-e675112533c5)
 ## Install
 ***
 `pip install -r requirements.txt`
