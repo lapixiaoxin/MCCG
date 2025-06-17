@@ -1,6 +1,6 @@
 # MCCG
 ## Overview
-<img width="1610" alt="image" src="https://github.com/user-attachments/assets/da7f85e4-4da3-49a4-b039-0ceac3be9da3" />
+<img width="1419" alt="image" src="https://github.com/user-attachments/assets/f5af2fdf-c05d-42a2-8277-e00db5fbb7c2" />
 
 ## Dataset
 AMiner-AND: https://www.aminer.cn/na-data  
