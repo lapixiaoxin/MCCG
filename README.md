@@ -10,7 +10,9 @@ WhoisWho-v1 and WhoisWho-v2: https://www.aminer.cn/billboard/whoiswho
 LAGOS-AND: https://zenodo.org/records/7313380
 
 ## Quick Start
-`python main.py`
+```python
+python main.py
+```
 
 ## Citation
 ```
