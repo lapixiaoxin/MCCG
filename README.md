@@ -10,10 +10,10 @@ WhoisWho-v1 and WhoisWho-v2: https://www.aminer.cn/billboard/whoiswho
 LAGOS-AND: https://zenodo.org/records/7313380
 
 ## Quick Start
-·python main.py·
+`python main.py`
 
 ## Citation
-···
+```
 @article{ye2025multi,
   title={Multi-view Contrastive and Cluster-Guided Learning for Author Name Disambiguation},
   author={Ye, Fan and Xia, Zong and Ling, Zhaolong and Wu, Le},
@@ -22,4 +22,4 @@ LAGOS-AND: https://zenodo.org/records/7313380
   year={2025},
   publisher={Elsevier}
 }
-···
+```
