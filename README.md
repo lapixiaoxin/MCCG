@@ -5,9 +5,11 @@
 <img width="1419" alt="image" src="https://github.com/user-attachments/assets/f5af2fdf-c05d-42a2-8277-e00db5fbb7c2" />
 
 ## Dataset
-AMiner-AND: https://www.aminer.cn/na-data  
-WhoisWho-v1 and WhoisWho-v2: https://www.aminer.cn/billboard/whoiswho  
-LAGOS-AND: https://zenodo.org/records/7313380
+[AMiner-AND](https://www.aminer.cn/na-data) 
+[WhoisWho-v1 and WhoisWho-v2](https://www.aminer.cn/billboard/whoiswho)
+[LAGOS-AND](https://zenodo.org/records/7313380)
+
+When using the LAGOS-AND dataset, we follow the approach in “Name Disambiguation in AMiner: Clustering, Maintenance, and Human in the Loop” by filtering out ambiguous authors with fewer than five publications. This may result in some ambiguous names having no associated authors, which are subsequently removed. Other datasets already exhibit this property at creation time, and we adopt this strategy considering the suitability of LAGOS-AND for the author name disambiguation task.
 
 ## Quick Start
 ```python
